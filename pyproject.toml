@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "Pensieve"
+version = "0.1"
+requires-python = ">=3.10"
+dependencies = [
+    "OpenAI",
+    "FastAPI"
+]
+
+[project.scripts]
+pensieve = "Pensieve.main:main"

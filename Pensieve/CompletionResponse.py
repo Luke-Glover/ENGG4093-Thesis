@@ -1,0 +1,3 @@
+class CompletionResponse:
+
+    text: str
